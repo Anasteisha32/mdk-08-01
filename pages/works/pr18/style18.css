@@ -1,0 +1,62 @@
+.pr{
+    margin-top: 50px;
+    width: 600px;
+    margin-left: 200px;
+}
+
+.ph{
+    background: url(../../../img/26.png);
+    width: 100px;
+    height: 100px;
+    margin-left: 250px;
+    
+}
+
+section{
+    display: flex;
+    background: rgb(217, 199, 164);
+}
+
+.ch1{
+    background: url(../../../img/вар.png);
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.ch2{
+    background: url(../../../img/вариант.png);
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.ch3{
+    background: url(../../../img/вариант.png);
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+article{
+    display: flex;
+    justify-content: center;
+  
+}
+h3{
+    color: rgb(79, 79, 150);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+   
+}
+.t1{
+    color: rgb(72, 72, 72);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    
+}
+.t2{
+    color: rgb(72, 72, 72);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    
+}

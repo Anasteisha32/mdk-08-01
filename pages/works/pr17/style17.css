@@ -1,0 +1,141 @@
+.wrapper{
+    width: 1080px;
+    
+    margin:  0 auto;
+}
+.bl1{
+    background: url(../../../img/141.png) no-repeat;
+    width: 1080px;
+    height: 300px;
+    margin:  0 auto;
+    background-size: cover;
+    
+}
+.werf{
+    display: flex;
+}
+.img1{
+    margin: 30px;
+    width: 10px;
+}
+.img2{
+    margin-left: 790px;
+    margin-top: 30px;
+   margin-right: 10px;
+   flex: 90px;
+}
+.img3{
+    margin-top: 10px;
+    margin-right: 30px;
+    
+}
+h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px;
+}
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.p1{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.c1h{
+    display: flex;
+    margin: 5px;
+}
+section .bk1{
+    color: lightgray;
+    float: right;
+   margin-left: 670px;
+   
+}
+section .bk2{
+    color: lightgray;
+    float: right;
+   margin-left: 490px;
+   
+}
+section .bk3{
+    color: lightgray;
+    float: right;
+   margin-left: 655px;
+   
+}
+section .bk4{
+    color: lightgray;
+    float: right;
+   margin-left: 580px;
+   
+}
+section .bk5{
+    color: lightgray;
+    float: right;
+   margin-left: 685px;
+   
+}
+section .bk6{
+    color: lightgray;
+    float: right;
+   margin-left: 565px;
+   
+}
+section .bk7{
+    color: lightgray;
+    float: right;
+   margin-left: 600px;
+   
+}
+.c1h img{
+    width: 100px;
+    height: 100px;
+}
+.bk1 img{
+   width: 50px;
+   height: 50px;
+   margin-left: 25px;
+
+}
+.bk2 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+ 
+ }
+ .bk3 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+ 
+ }
+.bk4 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+}
+.bk5 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+}
+.bk6 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+}
+.bk7 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+}
+.md span img{
+    width: 20px;
+    height: 20px;
+}
+.md{
+    margin-left: 10px;
+}

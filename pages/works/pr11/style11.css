@@ -1,0 +1,115 @@
+.rating{
+    display: inline-block;
+    font-size: 0;
+}
+.rating span{
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: rgb(112, 111, 111);
+}
+.rating > span:before{
+    content: '★';
+}
+.rating > span.active{ 
+    color: rgb(211, 201, 18);
+
+}
+
+.mn span{
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: rgb(104, 235, 53);
+}
+.mn > span::after{
+    content: '✓';
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+section article{
+    width: 320px;
+    margin: 5px;
+}
+section article .img1{
+    width: 100%;
+    height: 300px;
+    background: url(../../../img/рюкзак.jpg) no-repeat;
+
+}
+section article .img2{
+    width: 100%;
+    height: 300px;
+    background: url(../../../img/шорты.jpg) no-repeat;
+}
+section article .img3{
+    width: 100%;
+    height: 300px;
+    background: url(../../../img/рюкзак2.jpg) no-repeat;
+}
+section article .img4{
+    width: 100%;
+    height: 300px;
+    background: url(../../../img/pr4.jpg) no-repeat;
+    background-position-x: -30px;
+}
+.txt{
+    
+    float: left;
+    margin: 10px 10px 0 0;
+    color: rgb(243, 242, 243);
+}
+.nv{
+    background: green;
+    padding: 10px;
+    border-radius: 5px;
+}
+.cv{
+    background: rgb(67, 14, 92);
+    padding: 10px;
+    border-radius: 5px;
+}
+.ak{
+    background: rgb(207, 205, 53);
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.dn{
+    background: rgb(207, 53, 53);
+    color: rgb(241, 239, 239);
+    padding: 10px;
+    border-radius: 5px;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h2{
+    text-align: left;
+}
+header{
+    text-align: left;
+}
+.ek{
+    margin: 10px;
+}
+.ek span{
+    background: rgb(250, 247, 60);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    
+}
+.price{
+    font-weight: bold;
+    margin: 5px;
+}
+.ten{
+    color: rgb(173, 173, 173);
+    text-decoration: line-through;
+}
