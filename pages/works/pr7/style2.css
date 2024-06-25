@@ -1,0 +1,72 @@
+@font-face{
+    font-family: RobotoRegular;
+    src: url("fonts/Roboto/RobotoRegular.ttf");
+}
+.waper{
+    width: 60%;
+    margin:  0 auto;
+}
+main{
+    border: 1px solid rgb(3, 3, 3);
+}
+
+.waper .p1::before{
+    content: url(../../../img/1.png);
+    margin-right: 5px;
+
+}
+p{
+    text-align: justify;
+    margin: 10px;
+    padding: 5px;
+
+}
+h2{
+    margin: 10px;
+    padding-left: 5px;
+}
+.waper .p2::before{
+    content: url(../../../img/2.png);
+    margin-right: 5px;
+}
+.waper .p3::before{
+    content: url(../../../img/3.png);
+    margin-right: 5px;
+}
+
+footer li a{
+    text-decoration: none;
+    color: #5087ac;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 0 10px;
+}
+footer nav{
+    
+    text-align: center;
+    margin: 20px 0;
+}
+footer li a:hover{
+    text-decoration: underline;
+    color: #0a0a0a;
+}
+.menu nav ul{
+    text-align: center;
+    background: rgb(74, 185, 212);
+}
+nav li, nav li a{
+    display: inline-block;
+}
+.menu nav li a{
+    text-decoration: none;
+    color: rgb(248, 247, 247);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px;
+}
+.menu nav li a:hover{
+    background: white;
+    color: black;
+}
